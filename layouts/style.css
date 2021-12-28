@@ -4,6 +4,10 @@
 
 
 @layer components {
+    
+    ::webkit-scrollbar {
+        display: none;
+    }
 
     .hidden {
         visibility: hidden;
